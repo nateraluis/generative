@@ -29,6 +29,7 @@ def setup():
 
 def draw():
     """Make the drawing"""
+    py5.background(background)
     start_x = 0
     start_y = 0
     start_time = time.time()
@@ -45,7 +46,7 @@ def draw():
                 py5.fill(text_color, 250)
                 py5.no_stroke()
                 py5.ellipse(start_x+25, start_y+25, 15, 15)
-        time.sleep(random.randint(1, 10))
+        # time.sleep(random.randint(1, 10))
         now = time.time()
     my_font = py5.create_font("MesloLGS-NF-Regular", 32)
     py5.text_font(my_font)
@@ -55,9 +56,9 @@ def draw():
     py5.text(int(now), 20, 900)
     py5.fill(text_color, 70)
     py5.text_size(12)
-    py5.text("@natera", 20, 920)
-    py5.save(f'20230718_time/time_{int(now)}.png')
-    py5.no_loop()
+    py5.text("@natera", 20, 910)
+    # py5.save(f'20230718_time/time_{int(now)}.png')
+    # py5.no_loop()
 
 
 py5.run_sketch()
