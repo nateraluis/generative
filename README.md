@@ -16,3 +16,11 @@ Visualizing Unix time. The unix time is a date and time representation widley us
 
 
 ![](20230718_time/time_1689811444.png)
+
+## 20230803_tangents
+
+[Code](20230803_tangents/tangents.py)
+
+The algorithm creates tangent lines along the plot space. At the end of each line, a circle, touching the line, is created, and a new tangent line is draw. The algorithm repeats the process for multiple time, creating a sequence of lines and circles that is unique for each run. 
+
+![](20230803_tangents/tangents.png)
