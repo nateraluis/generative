@@ -40,6 +40,7 @@ def calculate_points(width_circle,
 def setup():
     """Setup the canvas"""
     py5.size(width_canvas, height_canvas)
+    py5.begin_record(py5.SVG, '20230714_orbits/orbits.svg')
     py5.background(background)
     py5.color_mode(py5.HSB)
     py5.no_fill()
@@ -93,6 +94,7 @@ def draw():
     py5.fill(orbit_color, 70)
     py5.text_size(12)
     py5.text("@natera", 450, 1140)
+    py5.end_record()
     py5.save(f'orbits_{time_sec}.png')
 
 
