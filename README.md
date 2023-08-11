@@ -24,3 +24,11 @@ Visualizing Unix time. The unix time is a date and time representation widley us
 The algorithm creates tangent lines along the plot space. At the end of each line, a circle, touching the line, is created, and a new tangent line is draw. The algorithm repeats the process for multiple time, creating a sequence of lines and circles that is unique for each run. 
 
 ![](20230802_tangents/tangents.png)
+
+## 20230804_experiment
+
+[Code](20230804_experiment/experiment_shape.py)
+
+Visual experimentation with lines that repeats itself 20 times. The script uses CMYK colors to generate new paterns in every iteration.
+
+![](20230804_experiment/cmyk.png)
