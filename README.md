@@ -27,8 +27,15 @@ The algorithm creates tangent lines along the plot space. At the end of each lin
 
 ## 20230804_experiment
 
-[Code](20230804_experiment/experiment_shape.py)
+[Code](20230804_expermient/experiment_shape.py)
 
 Visual experimentation with lines that repeats itself 20 times. The script uses CMYK colors to generate new paterns in every iteration.
 
-![](20230804_experiment/cmyk.png)
+![](20230804_expermient/cmyk.png)
+
+## 20230922_lattice
+
+[Code](20230922_lattice/lattice.py)
+Nodes and edges to generate a lattice from a simple structure. The system can either link or not link two nodes.
+
+![](20230922_lattice/images/lattice_02.png)
