@@ -29,7 +29,7 @@ pipx==1.2.0
 platformdirs==3.10.0
 pnoise==0.2.0
 pre-commit==3.4.0
-py5==0.9.1a1
+py5==0.10.0a0
 pycodestyle==2.11.0
 pyobjc==9.2
 pyobjc-core==9.2
