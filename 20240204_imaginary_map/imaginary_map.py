@@ -82,27 +82,7 @@ def draw():
     py5.text_align(py5.RIGHT, py5.BOTTOM)
     py5.text_size(10)
     py5.text("Images source: David Stark", 850, 925)
-    file = open(f"imaginary_map/images/seed_{seed}.txt", "w")
-    file.write("\nRandom Seed: " + repr(seed))
-    file.close()
-    py5.save_frame(f"imaginary_map/images/imaginary_map_{seed}.png", use_thread=True)
-
-
-def key_pressed():
-    key = py5.key
-    if key == " ":
-        save_and_close()
-    elif key == "r":
-        py5.redraw()
-
-
-def save_and_close():
-    py5.no_loop()
-    py5.save_frame("imaginary_map/images/imaginary_map_####.png", use_thread=True)
-    # img_path = sketch.path / f"{sketch.day}.{sketch.format}"
-    # img = py5.get_pixels(0, 0, LARGURA, ALTURA)
-    # img.save(img_path)
-    # py5.exit_sketch()
+    # py5.save_frame(f"imaginary_map/images/imaginary_map_{seed}.png", use_thread=True)
 
 
 if __name__ == "__main__":
